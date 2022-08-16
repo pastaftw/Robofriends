@@ -39,11 +39,9 @@ class App extends Component {
     else {
       return (
         <div className = "tc">
-          <h1 className = "white">Robofriends</h1>
+          <h1 className = "ma4 light-yellow">ROBOFRIENDS</h1>
           <Searchbar search = {this.Search}/>
-          <Scroll>
-            <CardList Database={this.Filter()}/>
-          </Scroll>
+          <Scroll><CardList Database={this.Filter()}/></Scroll>
         </div>
       );
     }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Searchbar = ({field, search}) => {
     return (
-        <div>
+        <div style = {{marginBottom: '30px'}}> 
             <input 
             type = "search" 
             placeholder = "Search for a robot." 
